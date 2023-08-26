@@ -1,0 +1,57 @@
+.moldura {     /* Funciona melhor em uma div "pai" */
+    padding: 30px 300px;
+    border: 5px solid #d6dadb;
+    border-radius: 20px;
+    font-size: 20px;
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+.paragrafo {
+    text-align: center;
+    padding: 10px 300px;
+    font-size: 20px;
+    max-height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul a { /* Altera cor do link */
+    color: #c0cfd3;
+}
+
+.topicos {
+    padding: 10px 300px;
+    font-size: 20px;
+
+}   
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+.h1 {
+    text-align: center;
+    font-size: 30px;
+}   
+body { /* Cor de fundo e de fonte da pagina */
+    color: #d6dadb;
+    background-color: #444654;
+    padding: 20px;
+}
+.button-link {
+    display: block;
+    padding: 10px 20px;
+    background-color: #3987db;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ 
