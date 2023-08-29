@@ -35,7 +35,7 @@ ul a { /* Altera cor do link */
     text-align: center;
     font-size: 30px;
 }   
-body { /* Cor de fundo e de fonte da pagina */
+body {                           /* Cor de fundo e de fonte da pagina */
     color: #d6dadb;
     background-color: #444654;
     padding: 20px;

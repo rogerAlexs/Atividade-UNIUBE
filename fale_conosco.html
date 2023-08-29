@@ -10,30 +10,28 @@
   <div class="moldura">
     <div class="h1">
       <a href="https://uniube.br/" target="_blank">
-        <img src="Images\logo_uniube.png" alt="logo uniube" class="logo">
+        <img src="Imagens\logo_uniube.png" alt="logo uniube" class="logo">
       </a>
       <h1>Fale Conosco</h1>
     </div>
     <div class="formulario">
       <form>
         <div class="formulario">
-          <label>Nome:</label>
-          <input required>
+          <input type="text" name="username" placeholder="Seu nome" maxlength="20">               <!--Campo de texto-->
         </div>
     
         <div class="formulario">
-          <label>Email:</label>
-          <input required>
+          <input type="text" name="email" placeholder="Seu email" maxlength="30">
         </div>
-        <div class="checkbox">
-          <input type="checkbox" id="newsletterCheckbox">
+        <div class="checkbox">                                                                   <!--Caixa de seleção-->                                
+          <input type="checkbox" id="receberNoticias">
           <label for="newsletterCheckbox">Receber notícias via email?</label>
         </div>
         <div class="form-field">
           <label>Mensagem:</label>
-          <textarea rows="4" required></textarea>
+          <textarea rows="4" required placeholder="Digite sua mensagem aqui"></textarea>         <!--Textarea-->
         </div>
-        <div class="botaoRadio">
+        <div class="botaoRadio">                                                                 <!--Radio button-->                                 
           <p>Como você classifica este site?</p>
           <input type="radio" name="classificacao" id="bom">
           <label for="bom">Bom</label> <br>
@@ -45,7 +43,7 @@
           <label for="pessimo">Péssimo</label> <br>
       </div>
   
-        <button class="botaoEnviar">Enviar</button>
+        <button class="botaoEnviar">Enviar</button>                    <!--Botão para envio-->
       </form>
     </div>
   </div>  
